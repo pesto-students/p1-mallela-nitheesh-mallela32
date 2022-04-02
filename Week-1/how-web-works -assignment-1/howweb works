@@ -1,0 +1,25 @@
+                                           How Web Works
+
+
+   The web mainly works between two members  one is clients(Who sends the request) and servers(Who sends the response). 
+
+In the above process there are many steps invloved there are :
+
+1.An internet connection: Allows you to send and receive data on the web.
+
+2.TCP/IP: how data should travel across the internet
+
+ 3.DNS: For example in www.google.com ,google is the domain name which contains the ip adresses uniquely to send the right information to the right server.
+
+
+4.HTTP: it is a protocol or language that is used to exchange information between server and client.
+
+5.Component files: the serves sends the files we asked for in the form of html,css,js,imgs,documents.
+
+
+           If we have correct rights then server sends us the files we requested for and our browser does the remaining work.
+
+
+
+   As the response comes the browser builds the  DOM tree and applies the styles from the parsing  and executes the JavaScript, a visual representation of the page is painted to the screen, and the user sees the page content and can begin to interact with it.    
+
