@@ -1,0 +1,54 @@
+.main-div{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main{
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    position: absolute;
+    z-index: -1;
+}
+.square{
+    transition-duration: 1s ;
+    transition-timing-function: 2s;
+}
+.square-1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+.square-2{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+.square-3{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+.square-4{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+#main:hover .square-1 {
+    transform: rotate(90deg) translateY(100px);
+    }
+ #main:hover .square-2 {
+    transform: rotate(-180deg) translateX(-100px);
+    }
+#main:hover .square-3 {
+    transform: rotate(90deg) translateY(100px);
+    }
+#main:hover .square-4 {
+    transform: rotate(-180deg) translateX(-100px);
+ }
