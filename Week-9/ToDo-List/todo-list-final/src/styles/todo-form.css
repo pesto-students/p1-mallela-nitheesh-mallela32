@@ -1,0 +1,26 @@
+.todo-form{
+    padding-bottom: 1rem;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type = "text"]{
+    width: 251px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    background-color: rgb(20, 180, 244);
+    color: white;
+    height: 30px;
+    border: white;
+    border-radius: 8px !important;
+}

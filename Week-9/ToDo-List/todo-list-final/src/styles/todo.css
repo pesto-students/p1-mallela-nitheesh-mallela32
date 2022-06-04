@@ -1,0 +1,34 @@
+.todo-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6ede2;
+    padding: 10px;
+    border-radius: 8px;
+}
+.btn-div{
+    display: flex;
+}
+input[type="checkbox"]{
+    margin-right: 10px;
+}
+input[type="checkbox"] :checked{
+    background-color: green;
+}
+.edit-icon{
+    color: blue;
+    margin-right: 10px;
+}
+.delete-icon{
+    color: red;
+}
+h5{
+    font-size: 1rem !important;
+}
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.text-div{
+    width: 230px;
+}
