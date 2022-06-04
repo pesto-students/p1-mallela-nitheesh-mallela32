@@ -1,0 +1,17 @@
+.img-fluid {
+    height: 230px !important;
+}
+
+
+.top-container{
+    margin-top: 3rem !important;
+    height: 230px;
+}
+h1{
+    font-size: 60px !important;
+    padding-left: 100px;
+    margin-bottom: 60px !important;
+}
+p{
+    padding-left: 100px; 
+}

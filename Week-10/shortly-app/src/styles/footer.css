@@ -1,0 +1,9 @@
+.link-div>a{
+    margin-bottom: 4px;
+    text-decoration: none;
+    color: white;
+}
+
+.link-div{
+    margin-right: 15px;
+}

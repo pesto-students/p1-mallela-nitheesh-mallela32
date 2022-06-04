@@ -1,0 +1,11 @@
+.middle-container{
+  background-color: rgb(216 216 216);
+}
+.footer{
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: black;
+}
